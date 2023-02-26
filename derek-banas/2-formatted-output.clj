@@ -2,10 +2,8 @@
 (ns tutorial.core
     (:gen-class))
 
-(defn -main
-    "I don't do a whole lot... yet"
-    [& args]
-
+;; defn - define function
+(defn main []
     (def my-str "My_String")
     (println
         (format "This is a string:      [%s]" my-str))
@@ -22,4 +20,4 @@
     (println
         (format "3 decimals:            [%.3f]" a-double)))
 
-(-main)
+(main)

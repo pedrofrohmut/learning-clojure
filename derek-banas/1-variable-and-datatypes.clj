@@ -2,9 +2,7 @@
 (ns tutorial.core
     (:gen-class))
 
-(defn -main
-    "I don't do a whole lot... yet"
-    [& args]
+(defn main []
     (def randVar 10)
     (println "RandVar:     " randVar)
     (def aDouble 1.333)
@@ -21,4 +19,4 @@
     (println "Is zero?     " 42 (zero? 42))
     )
 
-(-main)
+(main)
