@@ -1,3 +1,5 @@
+#!/usr/bin/env -S clj -M
+
 ;; guess-the-number-game3.clj
 ;; Pedro Frohmut 2026 Copyrights
 ;; Version 3
