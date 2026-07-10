@@ -5,6 +5,7 @@ Add the algorithms for:
 [ ] 3. Binary Search
 [ ] 4. Bubble Sort
 [ ] 5. Prime Number: Generator and Checker
-[ ] 6. GCD: Greatest Common divisor
+[ ] 6. GCD: Greatest Common Divisor
 [ ] 7. Anagram Checker
 [ ] 8. Tree Traversal (Binary Tree)
+[ ] 9. Ray Casting (is the point inside a polygon?)
