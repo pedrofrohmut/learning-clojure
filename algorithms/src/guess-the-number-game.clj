@@ -1,5 +1,7 @@
 ;; guess-the-number-game.clj
 ;; Pedro Frohmut 2026 Copyrights
+;; Version 1
+;; Guess game first version. Using recursions several functions.
 
 (defn game-loop
   "Runs a game loop end on success or loops again otherwise"
