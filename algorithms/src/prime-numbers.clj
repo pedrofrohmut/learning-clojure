@@ -4,7 +4,8 @@
 ;; Primes 1 to 100
 ;; 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97
 
-(defn is-prime?
+;; Loop version
+(defn old-is-prime?
   [n]
 
   (if (< n 2)
@@ -18,6 +19,21 @@
         :else (recur (inc i)))
       )
     )
+  )
+
+;; Recursion version
+(defn is-prime?
+  ([n]
+   (is-prime? n 2)
+   )
+  ([n i]
+   (cond
+     (< n 2) false
+     (= n i) true
+     (= (mod n i) 0) false
+     :else (is-prime? n (inc i))
+     )
+   )
   )
 
 (assert (is-prime? 2))
